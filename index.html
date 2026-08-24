@@ -33,34 +33,7 @@ h1 { color: red; font-size: 3em; letter-spacing: 5px; border-bottom: 2px solid r
 
 <p class="footer">alive since 2011</p>
 
-   <p class="footer">alive since 2011</p>
-
-<div style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
-  <button id="musicBtn" style="background:black;color:white;border:1px solid white;padding:8px 12px;cursor:pointer;border-radius:20px;">
-    🔊 Stray Bullet - KMFDM
-  </button>
-</div>
-
-<iframe id="ytplayer" style="display:none;" width="0" height="0" 
-src="https://www.youtube.com/embed/3b9yPiiZ5KQ?autoplay=1&loop=1&playlist=3b9yPiiZ5KQ&enablejsapi=1" 
-allow="autoplay"></iframe>
-
-<script>
-  let playing = false;
-  const btn = document.getElementById('musicBtn');
-  btn.onclick = () => {
-    const p = document.getElementById('ytplayer');
-    if(!playing){
-      p.style.display = 'block'; p.style.width='1px'; p.style.height='1px';
-      btn.innerText = '🔇 Stop - Stray Bullet';
-      playing = true;
-    } else {
-      p.style.display = 'none';
-      btn.innerText = '🔊 Stray Bullet - KMFDM';
-      playing = false;
-    }
-  }
-</script>
+   
 
 </body>
 </html> 
