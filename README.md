@@ -1,2 +1,2 @@
 # beldominator.github.io
-BEL'S UFICIAL WEB
+BEL'S OFFICIAL WEB
